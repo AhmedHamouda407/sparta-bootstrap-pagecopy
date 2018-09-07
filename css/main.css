@@ -1,21 +1,62 @@
 .img-class {
-  height: 600px;
-  width: 100%
+    height: 600px;
+    width: 100%;
 }
-.navbar{
-  margin-bottom: 20px;
+
+.colPic {
+    padding: 20px;
+    margin-top: 10px;
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 5px;
+    margin: 5px;
+}
+
+.navbar-nav {
+  background-color: red;
+}
+
+.nav>li {
+  background-color: red;
 
 }
 
-.grid-item {
-  width: 200px;
-  height: 100px;
-  background: rgba(20, 20, 20, 0.5);
-  color:white;
+.btn .btn-default {
+  background-color: red;
+}
 
+#bs-example-navbar-collapse-1 {
+  background-color: red;
+}
+
+.col-md-7 {
+  background-color: red;
+}
+
+.navbar {
+  height:95px;
+}
+
+.navbar-brand {
+    float: left;
+    height: 95px;
+    padding: 0px 0px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.form-horizontal .form-group {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.end {
+  background: orange;
+}
+
+footer {
+  background: red;
 }
