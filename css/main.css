@@ -37,7 +37,7 @@
 }
 
 .navbar {
-  height:95px;
+  min-height: height:95px;
 }
 
 .navbar-brand {
