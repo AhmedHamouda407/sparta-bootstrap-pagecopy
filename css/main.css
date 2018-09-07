@@ -60,3 +60,16 @@
 footer {
   background: red;
 }
+
+.navbar img{
+  transform: translate(-13px,-15px);
+  height: 60px;
+  width: 60px;
+}
+
+.navbar-brand{
+  display: flex;
+}
+.formsub {
+  width:100%;
+}
