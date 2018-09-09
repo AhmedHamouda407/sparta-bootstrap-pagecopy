@@ -15,11 +15,11 @@
     margin: 5px;
 }
 
-.navbar-nav {
+.navbar-nav  {
   background-color: red;
 }
 
-.nav>li {
+.nav li {
   background-color: red;
 
 }
@@ -36,8 +36,9 @@
   background-color: red;
 }
 
-.navbar {
-  min-height: height:95px;
+nav{
+  height: 95px;
+  background-color: red;
 }
 
 .navbar-brand {
@@ -62,14 +63,130 @@ footer {
 }
 
 .navbar img{
-  transform: translate(-13px,-15px);
+  transform: translate(-14px,0px);
   height: 60px;
   width: 60px;
 }
 
 .navbar-brand{
   display: flex;
+
+}
+
+#navbar-brand  {
+  font-size: 40px;
 }
 .formsub {
   width:100%;
+}
+
+.navbar {
+  background: red;
+}
+
+.navlinks{
+  font-size: 20px;
+}
+
+#navcol {
+  background-color: red;
+}
+
+#logo {
+  height: 95px;
+  width: 95px;
+}
+
+#h{
+  font-size: 20px;
+  margin-top: 24px;
+  margin-right: 18px;
+}
+
+#proj{
+  font-size: 20px;
+  margin-top: 24px;
+  margin-right: 18px;
+}
+
+#prod{
+  font-size: 20px;
+  margin-top: 24px;
+  margin-right: 18px;
+}
+
+#ab{
+  font-size: 20px;
+  margin-top: 24px;
+  margin-right: 18px;
+}
+
+#cont{
+  font-size: 20px;
+  margin-top: 24px;
+  margin-right: 18px;
+}
+
+#what{
+  font-size: 20px;
+  margin-top: 24px;
+  margin-right: 18px;
+}
+
+#whowearesec {
+  transform: translate(0px,-50px)
+}
+
+#number {
+  width: 180%;
+  margin-left: 108px;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 0px;
+  border-bottom:5px blue solid;
+  ;
+}
+#name{
+  width: 180%;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+margin-right: 30px;
+border-bottom: color:green;
+border-bottom:5px blue solid;
+}
+
+#email {
+  width:180%;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+ margin-right: 30px;
+ border-bottom: color:green;
+border-bottom:5px blue solid;
+}
+
+#help {
+  width:180%;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 30px;
+  border-bottom: color:green;
+  border-bottom:5px blue solid;
+
+}
+
+#formcontent {
+  margin-right: 180px;
+}
+
+#test{
+
+  transform: translate(0px,1px);
+}
+
+#qr {
+  transform: translate(0px,1px);
 }
